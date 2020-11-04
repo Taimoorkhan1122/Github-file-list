@@ -1,6 +1,6 @@
 import FileName from "./Components/FileName";
 import CommitMessage from "./Components/CommitMessage.jsx";
-import Time from "./Components  /Time";
+import Time from "./Components/Time";
 
 const FileList = ({ files }) => (
   <table className="file-list">
