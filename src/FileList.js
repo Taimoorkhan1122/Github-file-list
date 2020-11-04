@@ -1,9 +1,11 @@
+import FileName from "./Components/FileName";
+
 const FileList = ({ files }) => (
-  <table>
+  <table className="file-list">
     <tbody>
       {files.map((file) => (
-        <tr className="file-list-itme" key={file.id}>
-          <td className="file-name">{file.name}</td>
+        <tr className="file-list-item" key={file.id}>
+          {<FileName file={file} />}
         </tr>
       ))}
     </tbody>
