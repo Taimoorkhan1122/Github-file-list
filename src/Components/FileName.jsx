@@ -5,6 +5,7 @@ const FileName = ({ file }) =>(
         <>
             <FileIcon file={file}/>
             <td className="file-name">{file.name}</td>
+
         </>
 )
 

@@ -21,7 +21,7 @@ export const testFiles = [
     id: 3,
     name: "README",
     type: "file",
-    updated_at: "2016-07-18 21:24:00",
+    updated_at: "2018-07-18 21:24:00",
     latestCommit: {
       message: "Added a readme",
     },
